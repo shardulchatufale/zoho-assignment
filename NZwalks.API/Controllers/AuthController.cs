@@ -30,22 +30,22 @@ namespace NZwalks.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            // Create IdentityUser
+           
             var identityUser = new IdentityUser
             {
                 UserName = registerRequestDTO.UserName,
                 Email = registerRequestDTO.Email
             };
 
-            // Attempt to create user
+            
             var identityResult = await userManager.CreateAsync(identityUser, registerRequestDTO.Password);
             if (!identityResult.Succeeded)
             {
-                // Return detailed errors
+                
                 return BadRequest(new { Errors = identityResult.Errors.Select(e => e.Description) });
             }
 
-            // Check and add roles if provided
+            
             if (registerRequestDTO.Roles != null && registerRequestDTO.Roles.Any())
             {
                 identityResult = await userManager.AddToRolesAsync(identityUser, registerRequestDTO.Roles);

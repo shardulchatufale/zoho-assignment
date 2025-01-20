@@ -1,11 +1,34 @@
-﻿namespace NZwalks.API.Models.DTO
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace NZwalks.API.Models.DTO
 {
     public class AddProjectDto
     {
-        public string ProjectName { get; set; }  // Name of the project
-        public string Description { get; set; }  // Description of the project
-        public DateTime StartDate { get; set; }  // Start date of the project
-        public DateTime EndDate { get; set; }    // End date of the project
-        public Guid ClientId { get; set; }       // Client ID to associate with the project
+        [Required(ErrorMessage = "Project name is required.")]
+        public string ProjectName { get; set; } = null!; 
+
+        [Required(ErrorMessage = "Description is required.")]
+        public string Description { get; set; } = null!; 
+
+        [Required(ErrorMessage = "Start date is required.")]
+        public DateTime StartDate { get; set; } 
+
+        [Required(ErrorMessage = "End date is required.")]
+        public DateTime EndDate { get; set; } 
+
+        [Required(ErrorMessage = "Client ID is required.")]
+        [CustomValidation(typeof(AddProjectDto), nameof(ValidateClientId))]
+        public Guid ClientId { get; set; } 
+
+       
+        public static ValidationResult? ValidateClientId(Guid clientId, ValidationContext context)
+        {
+            if (clientId == Guid.Empty)
+            {
+                return new ValidationResult("Client ID is invalid or missing.", new[] { nameof(ClientId) });
+            }
+            return ValidationResult.Success;
+        }
     }
 }

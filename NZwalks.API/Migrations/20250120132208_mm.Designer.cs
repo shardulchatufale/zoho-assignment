@@ -12,7 +12,7 @@ using NZwalks.API.Data;
 namespace NZwalks.API.Migrations
 {
     [DbContext(typeof(NZWalksDBContext))]
-    [Migration("20250108110902_mm")]
+    [Migration("20250120132208_mm")]
     partial class mm
     {
         /// <inheritdoc />
@@ -87,23 +87,6 @@ namespace NZwalks.API.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Difficulties");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("36f44cbb-1fa4-45af-9887-e249e408fddc"),
-                            Name = "Easy"
-                        },
-                        new
-                        {
-                            Id = new Guid("eda91a29-1936-4c38-96a3-12194dd37377"),
-                            Name = "Medium"
-                        },
-                        new
-                        {
-                            Id = new Guid("05dc8d68-568d-4f3e-92f4-a1f352599013"),
-                            Name = "Hard"
-                        });
                 });
 
             modelBuilder.Entity("NZwalks.API.Models.Domain.Employee", b =>
@@ -190,86 +173,6 @@ namespace NZwalks.API.Migrations
                     b.ToTable("Projects");
                 });
 
-            modelBuilder.Entity("NZwalks.API.Models.Domain.Region", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Code")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("RegionImeageUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Regions");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("200e58b1-65c7-46e8-a58e-9e36601a3f75"),
-                            Code = "abc",
-                            Name = "shardul",
-                            RegionImeageUrl = ""
-                        },
-                        new
-                        {
-                            Id = new Guid("867d7695-ea31-4aa9-92c8-51836c55c012"),
-                            Code = "abc",
-                            Name = "vallbh",
-                            RegionImeageUrl = ""
-                        },
-                        new
-                        {
-                            Id = new Guid("10990d6b-c0e5-4650-b150-54cfb2f817a4"),
-                            Code = "abc",
-                            Name = "rahul",
-                            RegionImeageUrl = ""
-                        });
-                });
-
-            modelBuilder.Entity("NZwalks.API.Models.Domain.Walk", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("DifficultyId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<double>("LengthInKm")
-                        .HasColumnType("float");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("RegionId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("WalkImeageUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("DifficultyId");
-
-                    b.HasIndex("RegionId");
-
-                    b.ToTable("Walks");
-                });
-
             modelBuilder.Entity("NZwalks.API.Models.Domain.Assignmenent", b =>
                 {
                     b.HasOne("NZwalks.API.Models.Domain.Employee", "Employee")
@@ -317,25 +220,6 @@ namespace NZwalks.API.Migrations
                         .IsRequired();
 
                     b.Navigation("Client");
-                });
-
-            modelBuilder.Entity("NZwalks.API.Models.Domain.Walk", b =>
-                {
-                    b.HasOne("NZwalks.API.Models.Domain.Difficulty", "Difficulty")
-                        .WithMany()
-                        .HasForeignKey("DifficultyId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("NZwalks.API.Models.Domain.Region", "Region")
-                        .WithMany()
-                        .HasForeignKey("RegionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Difficulty");
-
-                    b.Navigation("Region");
                 });
 #pragma warning restore 612, 618
         }

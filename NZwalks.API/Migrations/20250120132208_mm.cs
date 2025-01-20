@@ -3,8 +3,6 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
-
 namespace NZwalks.API.Migrations
 {
     /// <inheritdoc />
@@ -57,20 +55,6 @@ namespace NZwalks.API.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Regions",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Code = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    RegionImeageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Regions", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Projects",
                 columns: table => new
                 {
@@ -88,35 +72,6 @@ namespace NZwalks.API.Migrations
                         name: "FK_Projects_Clients_ClientId",
                         column: x => x.ClientId,
                         principalTable: "Clients",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Walks",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LengthInKm = table.Column<double>(type: "float", nullable: false),
-                    WalkImeageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DifficultyId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    RegionId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Walks", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Walks_Difficulties_DifficultyId",
-                        column: x => x.DifficultyId,
-                        principalTable: "Difficulties",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Walks_Regions_RegionId",
-                        column: x => x.RegionId,
-                        principalTable: "Regions",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -173,26 +128,6 @@ namespace NZwalks.API.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.InsertData(
-                table: "Difficulties",
-                columns: new[] { "Id", "Name" },
-                values: new object[,]
-                {
-                    { new Guid("05dc8d68-568d-4f3e-92f4-a1f352599013"), "Hard" },
-                    { new Guid("36f44cbb-1fa4-45af-9887-e249e408fddc"), "Easy" },
-                    { new Guid("eda91a29-1936-4c38-96a3-12194dd37377"), "Medium" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Regions",
-                columns: new[] { "Id", "Code", "Name", "RegionImeageUrl" },
-                values: new object[,]
-                {
-                    { new Guid("10990d6b-c0e5-4650-b150-54cfb2f817a4"), "abc", "rahul", "" },
-                    { new Guid("200e58b1-65c7-46e8-a58e-9e36601a3f75"), "abc", "shardul", "" },
-                    { new Guid("867d7695-ea31-4aa9-92c8-51836c55c012"), "abc", "vallbh", "" }
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_Assignmenents_EmployeeId",
                 table: "Assignmenents",
@@ -217,16 +152,6 @@ namespace NZwalks.API.Migrations
                 name: "IX_Projects_ClientId",
                 table: "Projects",
                 column: "ClientId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Walks_DifficultyId",
-                table: "Walks",
-                column: "DifficultyId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Walks_RegionId",
-                table: "Walks",
-                column: "RegionId");
         }
 
         /// <inheritdoc />
@@ -236,22 +161,16 @@ namespace NZwalks.API.Migrations
                 name: "Assignmenents");
 
             migrationBuilder.DropTable(
-                name: "LogTimes");
+                name: "Difficulties");
 
             migrationBuilder.DropTable(
-                name: "Walks");
+                name: "LogTimes");
 
             migrationBuilder.DropTable(
                 name: "Employees");
 
             migrationBuilder.DropTable(
                 name: "Projects");
-
-            migrationBuilder.DropTable(
-                name: "Difficulties");
-
-            migrationBuilder.DropTable(
-                name: "Regions");
 
             migrationBuilder.DropTable(
                 name: "Clients");

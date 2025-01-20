@@ -21,21 +21,7 @@ namespace NZwalks.API.Controllers
             this.wl = wl;
             this.mapper = mapper;
         }
-        /*
-        [HttpPost]
-         [Authorize(Roles = "Writer")]
-        public async Task<IActionResult> CreateClient([FromBody] AddClientDto addClientDto)
-        {
-
-            var cdm = mapper.Map<Client>(addClientDto);
-
-            var res = await wl.CreateClient(cdm);
-
-            return Ok(res);
-
-
-        }
-        */
+     
         [HttpPost]
          [Authorize(Roles = "Writer")]
         public async Task<IActionResult> CreateClient([FromBody] AddClientDto addClientDto)

@@ -25,7 +25,7 @@ namespace NZwalks.API.Controllers
         [Authorize(Roles = "Writer")]
         public async Task<IActionResult> CreateEmployee([FromBody] AddEmployeeDto frmdto)
         {
-           // throw new NotImplementedException();
+          
             var wdm = map.Map<Employee>(frmdto);
 
             var res = await er.createEmployee(wdm);

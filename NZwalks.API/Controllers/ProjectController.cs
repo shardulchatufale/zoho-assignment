@@ -29,19 +29,20 @@ namespace NZwalks.API.Controllers
         public async Task<IActionResult> CreateProject([FromBody] AddProjectDto adpdto)
         {
 
-            var projectwdm = new Project
-            {
-                ProjectName = adpdto.ProjectName,
-                Description = adpdto.Description,
-                StartDate = adpdto.StartDate,
-                EndDate = adpdto.EndDate,
-                ClientId = adpdto.ClientId
-            };
-            var res = await pl.CreateProject(projectwdm);
-            //map.Map<AddProjectDto>(res);
+            var pdm = map.Map<Project>(adpdto);
 
-            var client = await db.Clients.FindAsync(res.ClientId);
-            res.Client = client;
+            // Check if ClientId exists
+            var checkCID = await db.Clients.FindAsync(adpdto.ClientId);
+            if (checkCID == null) // Fixed comparison operator
+            {
+                return NotFound(new { Message = "Client ID not found in the database." });
+            }
+
+            var res = await pl.CreateProject(pdm);
+
+            // Set the Client navigation property
+            res.Client = checkCID;
+
             return Ok(new { message = "Project created successfully", data = res });
 
         }

@@ -27,13 +27,27 @@ namespace NZwalks.API.Controllers
         [HttpPost]
         public async Task<IActionResult> asignProject([FromBody] AddAssignProject addAssignProject)
         {
-
-            var wdm = new Assignmenent
+            if (!ModelState.IsValid)
             {
-                ProjectId = addAssignProject.ProjectId,
-                EmployeeId = addAssignProject.EmployeeId,
-            };
+                return BadRequest(new { errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
+            }
 
+
+            var checkPId = await db.Projects.FindAsync(addAssignProject.ProjectId);
+            if (checkPId == null)
+            {
+                return NotFound(new { Message = "Project ID not found in the database." });
+            }
+
+            var checkEid = await db.Employees.FindAsync(addAssignProject.EmployeeId);
+            if (checkEid == null)
+            {
+                return NotFound(new { Message = "Employee ID not found in the database." });
+            }
+            
+
+            var wdm = map.Map<Assignmenent>(addAssignProject);
+          
             var res = await ap.AssignProject(wdm);
 
             var pn = await db.Projects.FindAsync(res.ProjectId);
@@ -44,12 +58,6 @@ namespace NZwalks.API.Controllers
 
 
             return Ok(new { message = "Project assigned successfully", data = res });
-
-
-            //   var res = await er.createEmployee(wdm);
-
-            //    return Ok(map.Map<WalkDto>(res));
-
 
         }
     }

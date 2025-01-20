@@ -8,11 +8,12 @@ namespace NZwalks.API.Mapping
     {
         public AutoMapperProfile()
         {
-    
 
 
 
 
+            CreateMap<AddAssignProject, Assignmenent>().ReverseMap();
+            CreateMap<Assignmenent, AddAssignProject>().ReverseMap();
 
 
             CreateMap<Client, AddClientDto>().ReverseMap();
