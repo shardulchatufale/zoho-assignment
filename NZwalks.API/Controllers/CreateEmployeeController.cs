@@ -10,11 +10,11 @@ namespace NZwalks.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeeController : ControllerBase
+    public class CreateEmployeeController : ControllerBase
     {
         private readonly IMapper map;
         private readonly IEmplyeeRepository er;
-        public EmployeeController(IMapper map, IEmplyeeRepository er)
+        public CreateEmployeeController(IMapper map, IEmplyeeRepository er)
         {
             this.map = map;
             this.er = er;

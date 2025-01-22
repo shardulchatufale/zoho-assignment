@@ -11,12 +11,12 @@ namespace NZwalks.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProjectController : ControllerBase
+    public class AddProjectController : ControllerBase
     {
         private readonly IMapper map;
         private readonly IProjecReposiotory pl;
         private readonly NZWalksDBContext db;
-        public ProjectController(IMapper map, IProjecReposiotory pl,NZWalksDBContext db)
+        public AddProjectController(IMapper map, IProjecReposiotory pl,NZWalksDBContext db)
         {
             this.map = map;
             this.pl = pl;

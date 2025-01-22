@@ -11,12 +11,12 @@ namespace NZwalks.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LogTimeController : ControllerBase
+    public class AddLogTimeController : ControllerBase
     {
         private readonly NZWalksDBContext dbd;
         private readonly IMapper map;
         private readonly ILogTime lt;
-        public LogTimeController(IMapper map, ILogTime lt, NZWalksDBContext dbd)
+        public AddLogTimeController(IMapper map, ILogTime lt, NZWalksDBContext dbd)
         {
             this.map = map;
             this.lt = lt;

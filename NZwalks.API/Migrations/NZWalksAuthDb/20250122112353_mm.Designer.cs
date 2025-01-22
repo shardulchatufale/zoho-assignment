@@ -12,7 +12,7 @@ using NZwalks.API.Data;
 namespace NZwalks.API.Migrations.NZWalksAuthDb
 {
     [DbContext(typeof(NZWalksAuthDbContext))]
-    [Migration("20250120132250_mm")]
+    [Migration("20250122112353_mm")]
     partial class mm
     {
         /// <inheritdoc />

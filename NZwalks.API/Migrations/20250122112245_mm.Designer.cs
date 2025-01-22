@@ -12,7 +12,7 @@ using NZwalks.API.Data;
 namespace NZwalks.API.Migrations
 {
     [DbContext(typeof(NZWalksDBContext))]
-    [Migration("20250120132208_mm")]
+    [Migration("20250122112245_mm")]
     partial class mm
     {
         /// <inheritdoc />

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\logtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\logtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\addprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\addprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\addlogtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\addlogtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\createemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\createemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\createclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\createclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\assignprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\assignprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\models\\dto\\addassignproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +47,6 @@
       "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\models\\domain\\assignmenent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|c:\\users\\shardulc\\desktop\\new folder\\zoho-assignment\\nzwalks.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10F4A3A9-8392-4297-9F20-7D71E6756ED8}|NZwalks.API\\NZwalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -54,76 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProjectController.cs",
-              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\ProjectController.cs",
-              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\ProjectController.cs",
-              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\ProjectController.cs",
-              "RelativeToolTip": "NZwalks.API\\Controllers\\ProjectController.cs",
-              "ViewState": "AgIAABwAAACA//////8vwC0AAABUAAAAAAAAAA==",
+              "Title": "CreateEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\CreateEmployeeController.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\CreateEmployeeController.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\CreateEmployeeController.cs",
+              "RelativeToolTip": "NZwalks.API\\Controllers\\CreateEmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T20:42:55.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LogTimeController.cs",
-              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\LogTimeController.cs",
-              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\LogTimeController.cs",
-              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\LogTimeController.cs",
-              "RelativeToolTip": "NZwalks.API\\Controllers\\LogTimeController.cs",
-              "ViewState": "AgIAADMAAAAAZmZmZuYswCkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T20:23:52.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddLogtimeDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddLogtimeDTO.cs",
-              "RelativeDocumentMoniker": "NZwalks.API\\Models\\DTO\\AddLogtimeDTO.cs",
-              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddLogtimeDTO.cs",
-              "RelativeToolTip": "NZwalks.API\\Models\\DTO\\AddLogtimeDTO.cs",
-              "ViewState": "AgIAAAIAAABAMzMzMzPzvxcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T20:22:42.719Z",
+              "WhenOpened": "2025-01-22T11:29:02.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LogTime.cs",
-              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\Domain\\LogTime.cs",
-              "RelativeDocumentMoniker": "NZwalks.API\\Models\\Domain\\LogTime.cs",
-              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\Domain\\LogTime.cs",
-              "RelativeToolTip": "NZwalks.API\\Models\\Domain\\LogTime.cs",
-              "ViewState": "AgIAAAgAAACwzMzMzMwmwA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T20:21:44.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssignProjectController.cs",
-              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AssignProjectController.cs",
-              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\AssignProjectController.cs",
-              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AssignProjectController.cs",
-              "RelativeToolTip": "NZwalks.API\\Controllers\\AssignProjectController.cs",
-              "ViewState": "AgIAAB4AAAAAxMzMzMwkwCMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T06:07:37.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AddAssignProject.cs",
               "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddAssignProject.cs",
               "RelativeDocumentMoniker": "NZwalks.API\\Models\\DTO\\AddAssignProject.cs",
@@ -131,51 +83,11 @@
               "RelativeToolTip": "NZwalks.API\\Models\\DTO\\AddAssignProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T13:44:18.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T13:44:18.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddClientDto.cs",
-              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddClientDto.cs",
-              "RelativeDocumentMoniker": "NZwalks.API\\Models\\DTO\\AddClientDto.cs",
-              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddClientDto.cs",
-              "RelativeToolTip": "NZwalks.API\\Models\\DTO\\AddClientDto.cs",
-              "ViewState": "AgIAAAgAAAAA9///////vxMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T13:26:19.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "NZwalks.API\\Controllers\\ClientController.cs",
-              "ViewState": "AgIAAAsAAACAMjMzMzMbwCIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T19:49:46.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "NZwalks.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAFAAAAAAy8zMzAwrwC8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T20:13:35.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Mapping\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "NZwalks.API\\Mapping\\AutoMapperProfile.cs",
@@ -188,7 +100,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddLogTimeController.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AddLogTimeController.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\AddLogTimeController.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AddLogTimeController.cs",
+              "RelativeToolTip": "NZwalks.API\\Controllers\\AddLogTimeController.cs",
+              "ViewState": "AgIAADMAAAAAZmZmZuYswCkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:23:52.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AddProjectController.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\AddProjectController.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AddProjectController.cs",
+              "RelativeToolTip": "NZwalks.API\\Controllers\\AddProjectController.cs",
+              "ViewState": "AgIAAA4AAABAmZmZmRktwC0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:42:55.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssignProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AssignProjectController.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\AssignProjectController.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AssignProjectController.cs",
+              "RelativeToolTip": "NZwalks.API\\Controllers\\AssignProjectController.cs",
+              "ViewState": "AgIAAB4AAAAAxMzMzMwkwCMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T06:07:37.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogTime.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\Domain\\LogTime.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Models\\Domain\\LogTime.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\Domain\\LogTime.cs",
+              "RelativeToolTip": "NZwalks.API\\Models\\Domain\\LogTime.cs",
+              "ViewState": "AgIAAAgAAACwzMzMzMwmwA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:21:44.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateClientController.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\CreateClientController.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\CreateClientController.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\CreateClientController.cs",
+              "RelativeToolTip": "NZwalks.API\\Controllers\\CreateClientController.cs",
+              "ViewState": "AgIAAAUAAADQmJmZmRkmwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T19:49:46.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AddLogtimeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddLogtimeDTO.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Models\\DTO\\AddLogtimeDTO.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddLogtimeDTO.cs",
+              "RelativeToolTip": "NZwalks.API\\Models\\DTO\\AddLogtimeDTO.cs",
+              "ViewState": "AgIAAAIAAABAMzMzMzPzvxcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:22:42.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddClientDto.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Models\\DTO\\AddClientDto.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\DTO\\AddClientDto.cs",
+              "RelativeToolTip": "NZwalks.API\\Models\\DTO\\AddClientDto.cs",
+              "ViewState": "AgIAAAgAAAAA9///////vxMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T13:26:19.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NZwalks.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NZwalks.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFAAAAAAy8zMzAwrwC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:13:35.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Assignmenent.cs",
               "DocumentMoniker": "C:\\Users\\ShardulC\\Desktop\\New folder\\zoho-assignment\\NZwalks.API\\Models\\Domain\\Assignmenent.cs",
               "RelativeDocumentMoniker": "NZwalks.API\\Models\\Domain\\Assignmenent.cs",
@@ -196,8 +207,7 @@
               "RelativeToolTip": "NZwalks.API\\Models\\Domain\\Assignmenent.cs",
               "ViewState": "AgIAABIAAACgzMzMzMwmwAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T19:53:09.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T19:53:09.319Z"
             }
           ]
         }

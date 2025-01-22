@@ -10,13 +10,13 @@ namespace NZwalks.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClientController : ControllerBase
+    public class CreateClientController : ControllerBase
     {
 
         private readonly IclientRepository wl;
         private readonly IMapper mapper;
 
-        public ClientController(IMapper mapper, IclientRepository wl)
+        public CreateClientController(IMapper mapper, IclientRepository wl)
         {
             this.wl = wl;
             this.mapper = mapper;
